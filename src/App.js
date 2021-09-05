@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     alanBtn({
       key:
-        "e3a32cd64395a643bd3a03cee62943562e956eca572e1d8b807a3e2338fdd0dc/stage",
+        "27e533e08a80e955c1243e994c2f27092e956eca572e1d8b807a3e2338fdd0dc/stage",
       onCommand: (commandData) => {
         if (commandData.command === "getMenu") {
           setProducts(commandData.data)
